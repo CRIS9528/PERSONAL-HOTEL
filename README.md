@@ -278,18 +278,6 @@
                 <div class="stat-label">Inactivos</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">1</div>
-                <div class="stat-label">Costa Rica</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">9</div>
-                <div class="stat-label">Nicaragua</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">1</div>
-                <div class="stat-label">Cuba</div>
-            </div>
-            <div class="stat-card">
                 <div class="stat-number">7</div>
                 <div class="stat-label">Mantenimiento</div>
             </div>
@@ -469,7 +457,7 @@
 
         <div class="footer">
             <p><strong>Grupo Mozu S.A.</strong></p>
-            <p>Planilla actualizada - Enero 2026</p>
+            <p>Planilla actualizada - Febrero 2026</p>
             <p style="font-size: 0.9em; color: #999; margin-top: 10px;">
                 Mantenimiento: 7 empleados | Construcción: 4 empleados | Total: 11 empleados
             </p>
