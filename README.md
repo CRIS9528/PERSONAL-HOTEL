@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -127,31 +128,6 @@
             transition: background-color 0.3s ease;
         }
 
-        .nacionalidad {
-            font-weight: 600;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 10px;
-            text-align: center;
-            display: inline-block;
-            min-width: 60px;
-        }
-
-        .nacionalidad.cr {
-            background-color: #E3F2FD;
-            color: #1976D2;
-        }
-
-        .nacionalidad.ni {
-            background-color: #FFF3E0;
-            color: #F57C00;
-        }
-
-        .nacionalidad.cu {
-            background-color: #FFEBEE;
-            color: #C62828;
-        }
-
         .estado {
             padding: 4px 8px;
             border-radius: 12px;
@@ -251,11 +227,11 @@
                 </div>
                 <div class="info-item">
                     <div class="info-label">Período</div>
-                    <div class="info-value">02 (Febero 2026)</div>
+                    <div class="info-value">01 (Enero 2026)</div>
                 </div>
                 <div class="info-item">
                     <div class="info-label">Fecha Actualización</div>
-                    <div class="info-value">15-02-2026</div>
+                    <div class="info-value">31-01-2026</div>
                 </div>
                 <div class="info-item">
                     <div class="info-label">Tipo Planilla</div>
@@ -297,9 +273,6 @@
                         <th>Fecha Nacimiento</th>
                         <th>Puesto</th>
                         <th>Género</th>
-                        <th>Nacionalidad</th>
-                        <th>Teléfono</th>
-                        <th>Correo Electrónico</th>
                         <th>Estado</th>
                         <th>Proyecto</th>
                     </tr>
@@ -313,9 +286,6 @@
                         <td>1/8/1983</td>
                         <td><span class="puesto">Jardinero</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto mantenimiento">MANTENIMIENTO</span></td>
                     </tr>
@@ -326,9 +296,6 @@
                         <td>22/8/1991</td>
                         <td><span class="puesto">Mantenimiento</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6133-5572</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto mantenimiento">MANTENIMIENTO</span></td>
                     </tr>
@@ -339,9 +306,6 @@
                         <td>27/2/1996</td>
                         <td><span class="puesto">Mantenimiento</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto mantenimiento">MANTENIMIENTO</span></td>
                     </tr>
@@ -352,9 +316,6 @@
                         <td>12/7/1993</td>
                         <td><span class="puesto">Mantenimiento</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto mantenimiento">MANTENIMIENTO</span></td>
                     </tr>
@@ -365,9 +326,6 @@
                         <td>16/8/2006</td>
                         <td><span class="puesto">Mantenimiento</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto mantenimiento">MANTENIMIENTO</span></td>
                     </tr>
@@ -378,9 +336,6 @@
                         <td>10/2/1978</td>
                         <td><span class="puesto">Mantenimiento</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto mantenimiento">MANTENIMIENTO</span></td>
                     </tr>
@@ -391,9 +346,6 @@
                         <td>1/2/2008</td>
                         <td><span class="puesto">Cub. Libre</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad cu">Cuba</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto mantenimiento">MANTENIMIENTO</span></td>
                     </tr>
@@ -406,9 +358,6 @@
                         <td>5/6/1985</td>
                         <td><span class="puesto">Operario</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto construccion">CONSTRUCCIÓN</span></td>
                     </tr>
@@ -419,9 +368,6 @@
                         <td>9/1/1994</td>
                         <td><span class="puesto">Operario</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad cr">Costa Rica</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto construccion">CONSTRUCCIÓN</span></td>
                     </tr>
@@ -432,9 +378,6 @@
                         <td>30/12/1989</td>
                         <td><span class="puesto">Ayudante</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto construccion">CONSTRUCCIÓN</span></td>
                     </tr>
@@ -445,9 +388,6 @@
                         <td>7/11/2004</td>
                         <td><span class="puesto">Ayudante</span></td>
                         <td>Masculino</td>
-                        <td><span class="nacionalidad ni">Nicaragua</span></td>
-                        <td>6410-1209</td>
-                        <td>grupo.mozu@gmail.com</td>
                         <td><span class="estado activo">Activo</span></td>
                         <td><span class="proyecto construccion">CONSTRUCCIÓN</span></td>
                     </tr>
@@ -457,7 +397,7 @@
 
         <div class="footer">
             <p><strong>Grupo Mozu S.A.</strong></p>
-            <p>Planilla actualizada - Febrero 2026</p>
+            <p>Planilla actualizada - Enero 2026</p>
             <p style="font-size: 0.9em; color: #999; margin-top: 10px;">
                 Mantenimiento: 7 empleados | Construcción: 4 empleados | Total: 11 empleados
             </p>
