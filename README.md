@@ -245,11 +245,11 @@
                 <div class="stat-label">Total Empleados</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">11</div>
+                <div class="stat-number">10</div>
                 <div class="stat-label">Activos</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">0</div>
+                <div class="stat-number">1</div>
                 <div class="stat-label">Inactivos</div>
             </div>
             <div class="stat-card">
@@ -305,7 +305,7 @@
                         <td>27/2/1996</td>
                         <td><span class="puesto">Mantenimiento</span></td>
                         <td>Masculino</td>
-                        <td><span class="estado activo">Activo</span></td>
+                        <td><span class="estado inactivo">Inactivo</span></td>
                         <td><span class="proyecto mantenimiento">MANTENIMIENTO</span></td>
                     </tr>
                     <tr>
